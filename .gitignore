@@ -99,3 +99,27 @@ ENV/
 
 # mypy
 .mypy_cache/
+
+# Editor temporaries
+*.swp
+*~
+
+# Sublime Text settings
+*.sublime-workspace
+*.sublime-project
+
+
+# PyCharm files
+.idea
+
+# Visual Studio Code files
+.vscode
+*.user
+*.suo
+*.sdf
+*.opensdf
+*.pdb
+*.props
+
+# OSX dir files
+.DS_Store
