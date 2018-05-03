@@ -6,6 +6,9 @@ from abc import ABCMeta, abstractmethod
 import math
 
 
+# base implementation of factory pattern
+
+
 AreaCalculatorFactries = dict()
 DEFAULT_SQUARE_AREA_CALCULATOR = "square"
 DEFAULT_CIRCLE_AREA_CALCULATOR = "circle"
