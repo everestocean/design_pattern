@@ -61,9 +61,9 @@ class VehicleManufacturer(object):
 if __name__ == "__main__":
     car_builder_obj = CarBuilder()
     bike_builder_obj = BikeBuilder()
-
+    print("#"*30)
     car_manufacturer_obj = VehicleManufacturer(car_builder_obj)
     car_manufacturer_obj.create()
-
+    print("#"*30)
     bike_manufacturer_obj = VehicleManufacturer(bike_builder_obj)
     bike_manufacturer_obj.create()
