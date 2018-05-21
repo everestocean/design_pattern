@@ -6,6 +6,11 @@ import datetime
 
 
 # base implementation of memento pattern
+# Memento模式保存了封装的边界，一个Memento对象是另一种原发器对象的表示，
+# 不会被其他代码改动。这种模式简化了原发器对象，Memento只保存原发器的状态。采用堆栈备忘对象，可以实现多次取消操作。
+# 下面的情景很适合应用备忘录模式：
+#   1.对象状态的备忘足以使对象可以完全恢复到原来的状态。
+#   2.使用一个直接的接口来取得状态会使实现细节过程化，这样会打破对象的封装性。
 
 
 class GameRole(object):
