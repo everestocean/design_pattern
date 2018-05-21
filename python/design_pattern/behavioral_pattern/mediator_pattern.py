@@ -153,7 +153,7 @@ class Fly(object):
 
 
 class ConcreteFly(Fly):
-    def __init__(self, ID, name):
+    def __init__(self, name, ID):
         super(ConcreteFly, self).__init__(ID, name)
 
     def do_self_method(self, type):
@@ -228,9 +228,9 @@ if __name__ == "__main__":
 
     airport_mediator_obj = AirportMediator()
 
-    fly_obj_one = ConcreteFly("001", "1")
-    fly_obj_two = ConcreteFly("002", "2")
-    fly_obj_three = ConcreteFly("003", "3")
+    fly_obj_one = ConcreteFly("001", 1)
+    fly_obj_two = ConcreteFly("002", 2)
+    fly_obj_three = ConcreteFly("003", 3)
 
     fly_obj_one.set_airport_mediator(airport_mediator_obj)
     fly_obj_two.set_airport_mediator(airport_mediator_obj)
